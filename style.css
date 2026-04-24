@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #faf7f2;
+    font-family: 'Segoe UI', 'Roboto', Georgia, serif;
+    color: #2c3e2f;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* 侧边栏 */
+.sidebar {
+    width: 280px;
+    background: #fffaf3;
+    border-right: 1px solid #e9e0d3;
+    padding: 2rem 1.2rem;
+    box-shadow: 2px 0 12px rgba(0,0,0,0.02);
+}
+
+.sidebar h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #e0d6c8;
+    padding-bottom: 0.6rem;
+    margin-bottom: 1.2rem;
+}
+
+#novel-list {
+    list-style: none;
+}
+
+#novel-list li {
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.4rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #4e5b4a;
+    font-size: 1rem;
+}
+
+#novel-list li:hover {
+    background: #efe6db;
+    color: #1f2e1c;
+    transform: translateX(4px);
+}
+
+/* 主要内容区 */
+.content {
+    flex: 1;
+    padding: 2.5rem 3rem;
+    max-width: 900px;
+    line-height: 1.75;
+    font-size: 1.05rem;
+}
+
+/* 渲染后的 Markdown 样式 */
+.content h1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    border-left: 6px solid #b3a68f;
+    padding-left: 1rem;
+}
+
+.content p {
+    margin-bottom: 1.2rem;
+}
+
+.content blockquote {
+    border-left: 4px solid #cdbc9f;
+    background: #fef7e8;
+    padding: 0.8rem 1.2rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: #5c5346;
+}
+
+.placeholder {
+    color: #b9aa95;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
