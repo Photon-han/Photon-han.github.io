@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小说馆</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- marked.js 用于把 Markdown 转成 HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>📖 作品列表</h2>
+            <ul id="novel-list">
+                <!-- 这里先手动列一篇示例小说，后面你可以加更多 -->
+                <li data-file="novels/短篇-雨夜.md">🌙 短篇 · 雨夜</li>
+            </ul>
+        </aside>
+        <main class="content" id="novel-content">
+            <p class="placeholder">✨ 点击左侧篇目，开始阅读 ✨</p>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
