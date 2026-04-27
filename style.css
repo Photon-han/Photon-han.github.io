@@ -5,72 +5,19 @@
 }
 
 body {
-    background: #faf7f2;
-    font-family: 'Segoe UI', 'Roboto', Georgia, serif;
-    color: #2c3e2f;
+    background: #f3efe7;
+    color: #5a4b3c;
 }
-
-.container {
-    display: flex;
-    min-height: 100vh;
-}
-
-/* 侧边栏 */
 .sidebar {
-    width: 280px;
-    background: #fffaf3;
-    border-right: 1px solid #e9e0d3;
-    padding: 2rem 1.2rem;
-    box-shadow: 2px 0 12px rgba(0,0,0,0.02);
-}
-
-.sidebar h2 {
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #e0d6c8;
-    padding-bottom: 0.6rem;
-    margin-bottom: 1.2rem;
-}
-
-#novel-list {
-    list-style: none;
-}
-#novel-list li {
-    transition: all 0.25s ease;
-}
-
-}
-
-#novel-list li {
-    padding: 0.6rem 0.8rem;
-    margin-bottom: 0.4rem;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.2s;
-    color: #4e5b4a;
-    font-size: 1rem;
-}
-
-#novel-list li:hover {
-    background: #efe6db;
-    color: #1f2e1c;
-    transform: translateX(4px);
-}
-
-
-
-#novel-list li {
-    transition: all 0.25s ease;
+    background: #fef7f0;
+    border-right-color: #e2d5c5;
 }
 #novel-list li:hover {
-    background: #efe6db;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    padding-left: 1.2rem;
+    background: #e9ddd0;
 }
-
-
-
+.content h1 {
+    border-left-color: #b88b6d;
+}
 
 
 /* 主要内容区 */
